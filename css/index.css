@@ -1,0 +1,366 @@
+@font-face{
+	font-family: JosefinSans;
+	src: url("../fonts/JosefinSans-Regular.ttf");
+}
+
+body{
+	font-family: JosefinSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+*{
+	box-sizing: border-box;	
+}
+
+button{
+	cursor: pointer;
+	overflow: visible;
+}
+
+/*Navbar start*/
+nav {
+  background-color: #fff !important;
+  padding: 0;
+  box-shadow: 0 1vw 1vw #aaaaaa;
+}
+
+nav a{
+  color: black !important;
+  text-align: center;
+  padding: 1vw 2vw;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  display: inline-block;
+  border-radius: 8px;
+  margin:2vw 2vw 2vw 2vw;
+}
+
+nav a.logo{
+	margin-top: 0vw;
+	padding-left: 5vw;
+}
+nav a.logo img, nav a.logo h2{
+	display: inline;
+}
+nav a.logo h2{
+	position: relative;
+	top: 0.5vw;
+}
+nav a.logo p{
+	padding-left: 5vw;
+}
+
+nav a:hover {
+  background-color: #c8c5c580 !important;
+  color: #5f5555 !important;
+}
+
+nav a.logo:hover{
+	color: black !important;
+	background-color:#fff !important;
+}
+
+nav img{
+	margin-left: 2vw;
+}
+/*Navbar end*/
+
+/*First container start*/
+h1.first{
+	font-size: 50px;
+	margin-top: 4vw;
+	text-align: center;
+}
+p.first{
+	margin: 0;
+	text-align: center;
+	font-size: 18px;
+}
+/*First container end*/
+
+/*Second container start*/
+.second{
+	margin-top: 5vw;
+	text-align: center;
+}
+.second h1{
+	font-size: 45px;
+	margin-top: 1vw;
+}
+.second ul li{
+	font-size: 24px;
+	text-align: left;
+	margin-left: 3vw;
+}
+/*Second container end*/
+
+/*Third container start*/
+.third{
+	margin-top: 7vw;
+	text-align: center;
+	margin-bottom: 3vw;
+}
+.third h1{
+	font-size: 45px;
+	margin-top: 2vw;
+}
+.third ul li{
+	font-size: 24px;
+	text-align: left;
+	margin-left: 3vw;
+}
+/*Third container end*/
+
+/*Fourth container start*/
+.fourth h1{
+	text-align: center;
+	font-size: 45px;
+	margin: 2vw 0 3vw;
+}
+.fourth img{
+	margin-left: 6.75vw;
+	margin-bottom: 5vw;
+}
+/*Fourth container end*/
+
+/*Fifth container start*/
+.fifth{
+	margin-bottom: 4vw;
+}
+.fifth h2{
+	text-align: center;
+	font-size: 35px;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+}
+.fifth img.one{
+	margin-left: 10vw;	
+	margin-bottom: 1vw; 
+}
+.fifth img.two{
+	margin-left: 8.5vw;
+	margin-bottom: 0;
+}
+.fifth .download{
+	margin-left: 9.5vw;
+}
+.fifth h3{
+	text-align: center;
+	font-size: 24px;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+}
+/*Fifth conainer end*/
+
+/*Form start*/
+.eighth{
+	background-color: #ccc;
+}
+.eighth h1{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1vw;
+	padding-top: 2vw;
+	font-size: 45px;
+	margin-bottom: 0vw;
+}
+.eighth .form-right{
+	padding: 5vw 3vw 0;
+}
+.eighth p{
+	margin-top: 3vw;
+}
+.eighth input, .eighth select, .eighth textarea{
+	margin: 0 0 3vw;
+	border-radius: 12px;
+	padding: 4px 5px;
+}
+.eighth textarea{
+	height: 8vw;
+}
+.queryBtn{
+  	padding: 15px 16px;
+  	font-size: 18px;
+  	background-color: #2e7d32;
+  	color: #f8f5f5;
+  	cursor: pointer;
+  	border-radius: 26px;
+  	border: 1px solid transparent;
+  	text-align: center;
+  	margin-bottom: 2vw;
+}
+.center{
+	width: 100%;
+	text-align: center;
+}
+/*Form end*/
+
+/*Footer start*/
+footer{
+	background-color: #333;
+	color: #fff;
+	padding-top: 2vw;
+	padding-bottom: 4vw;
+}
+footer img.logo{
+	margin-left: 2vw;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+	text-align: left;
+}
+footer h2{
+	margin-top: 1vw;
+}
+footer a:hover{
+	color: #fff;
+}
+footer a.logo:hover{
+	text-decoration: none;
+}
+footer h4{
+	font-size: 20px;
+	margin-top: 0;
+}
+
+.copyright{
+	text-align: center;
+	background-color: #fff;
+	color: #000;
+	margin-top: 0vw;
+}
+/*Footer end*/
+
+
+
+@media screen and (max-width: 768px){
+	
+	/*nav{
+		height: 24vw;
+	}*/
+	.navbar{
+		min-height: 22vw;
+	}
+	.navbar-brand{
+		height: 22vw;
+	}
+	nav a.logo{
+		padding-left: 0;
+		border-right: 130vw;
+	}
+	nav a.logo h2{
+		float: right;
+		margin-top: 2vw;
+		padding-left: 1vw;
+	}
+	nav a.logo p{
+		margin-left: 6vw;
+	}
+
+	h1.first{
+		font-size: 37px;
+		margin-top: 5vw;
+		margin-bottom: 0.5vw;
+	}
+	p.first{
+		font-size: 17px;
+	}
+	img.first{
+		margin-top: 3vw; 
+	}
+
+	.second{
+		margin-top: 5vw;
+		text-align: center;
+	}
+	.second h1{
+		font-size: 30px;
+		margin-top: 6vw;
+	}
+	.second ul li{
+		font-size: 18px;
+	}
+
+	.third{
+		margin-top: 2vw;
+		text-align: center;
+	}
+	.third h1{
+		font-size: 30px;
+		margin-top: 12vw;
+	}
+	.third ul li{
+		font-size: 18px;
+	}
+	.third ul{
+		margin-bottom: 3vw;
+	}
+
+	.fourth h1{
+		font-size: 35px;
+	}
+	.fourth img{
+		margin-top: 2vw;
+		padding-left: 3vw;
+		width: 22%;
+		margin-bottom: 2vw;
+	}
+
+	.fifth h2{
+		text-align: center;
+		font-size: 30px;
+		margin-top: 2vw;
+	}
+	.fifth img{
+		margin-top: 2vw;
+		padding-left: 15vw;
+	}
+	.fifth img.one{
+		margin-left: 9vw;
+		width: 65%;
+	}
+	.fifth .download{
+		margin-left: 15vw;
+	}
+	.fifth .download img{
+		width: 55%;
+	}
+	.fifth img.two{
+		margin-left: 10vw;
+	}
+	.fifth h3{
+		text-align: center;
+		font-size: 25px;
+		margin-top: 4vw;
+		margin-bottom: 2vw;
+	}
+
+	
+	.eighth h1{
+		font-size: 35px;
+		margin-top: 2vw;
+	}
+	.eighth .form-right{
+		padding: 0;
+	}
+	.eighth textarea{
+		height: 17vw;
+	}
+	.queryBtn{
+		margin-left: 3vw;
+		margin-bottom: 5vw;
+	}
+
+	footer{
+		padding-left: 5vw;
+	}
+	footer h2{
+		margin-top: 0;
+		padding-left: 0;
+		text-align: left;
+	}
+	footer div.row div{
+		margin-bottom: 4vw;
+	}
+}
